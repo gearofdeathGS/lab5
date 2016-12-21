@@ -1,4 +1,13 @@
-
+#define _CRT_SECURE_NO_WARNINGS
+#include <cstdio>
+#include <cstdlib>
+#include <fstream>
+#include <iostream>
+#include <iomanip>
+#include <string>
+#include <locale.h>
+#include <unordered_map>
+using namespace std;
 
 void read_database(unordered_map<string, double> &database)
 {
